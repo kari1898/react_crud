@@ -29,7 +29,7 @@ function NavMenu() {
         <Navbar.Collapse id="responsive-navbar-nav">
           {items.map(item=>(
             <Nav className="me-auto" key={item.id}>
-                    <Nav.Link href={`item/${item.id}`}>{item.item}</Nav.Link>
+                    <Nav.Link href={`/item/${item.id}`}>{item.item}</Nav.Link>
                     </Nav>
                 ))}
                 <Nav>
